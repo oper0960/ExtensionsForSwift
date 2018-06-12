@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+Swift 4.0+
+iOS 10.3+
+
 ## Installation
 
 ExtensionsForSwift is available through [CocoaPods](https://cocoapods.org). To install
