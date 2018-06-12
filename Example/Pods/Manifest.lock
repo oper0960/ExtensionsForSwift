@@ -1,0 +1,16 @@
+PODS:
+  - ExtensionsForSwift (0.1.0)
+
+DEPENDENCIES:
+  - ExtensionsForSwift (from `../`)
+
+EXTERNAL SOURCES:
+  ExtensionsForSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ExtensionsForSwift: 0e835fe607c74b2ecf21dd5505fb14849f4b3704
+
+PODFILE CHECKSUM: 237b106f229f51d37ecaa18330514f46ee108fb6
+
+COCOAPODS: 1.5.3
