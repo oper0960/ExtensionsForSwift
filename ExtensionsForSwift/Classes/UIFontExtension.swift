@@ -11,7 +11,7 @@ import UIKit
 public extension UIFont {
     
     // Resolution font size Enum
-    public enum TextStyle {
+    public enum ResolutionTextStyle {
         case SystemBold
         case SystemRegular
         case HelveticaBold
@@ -21,7 +21,7 @@ public extension UIFont {
     }
     
     // Resize fonts by screen size
-    public class func resolutionFontSize(style: TextStyle,size: CGFloat) -> UIFont {
+    public class func resolutionFontSize(style: ResolutionTextStyle, size: CGFloat) -> UIFont {
         let size_formatter = size/375
         let fontsize = UIScreen.main.bounds.width * size_formatter
         
